@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.env
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Virtual Environment Directory
+mt_eval_env/
+
+# OS generated files
+.DS_Store
+.Trash
+
+# Evaluation Results
+results/
