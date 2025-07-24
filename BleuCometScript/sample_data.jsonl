@@ -1,3 +1,0 @@
-{"id": "seg001", "src": "The cat sat on the mat.", "hyp": "猫坐在垫子上。", "ref": ["猫坐在垫子上。"]}
-{"id": "seg002", "src": "How are you today?", "hyp": "你今天怎么样？", "ref": ["你今天好吗？", "你今天过得怎么样？"]}
-{"id": "seg003", "src": "This is a very long sentence that needs to be translated accurately.", "hyp": "这是一个需要准确翻译的非常长的句子。", "ref": ["这是一个需要准确翻译的非常长的句子。"]}
