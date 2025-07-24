@@ -152,7 +152,7 @@ def save_results(bleu_score, comet_score, output_dir, segment_scores=None, data=
 
 def main():
     parser = argparse.ArgumentParser(description="使用BLEU和COMET评估机器翻译质量。")
-    parser.add_argument('--input_file', type=str, required=True, help='包含src, hyp, 和 ref 的JSONL输入文件。')
+    parser.add_argument('--input_file', type=str, default='sample_data.jsonl', help='包含src, hyp, 和 ref 的JSONL输入文件。')
     parser.add_argument('--output_dir', type=str, default='results', help='保存结果的目录。')
     parser.add_argument('--comet_model', type=str, default='eamt22-cometinho-da', help='要使用的COMET模型。')
     

@@ -19,8 +19,12 @@
     python -m venv venv
     # 在 Windows 上
     .\venv\Scripts\activate
+<<<<<<< HEAD
     # 在 macOS/Linux 上
     source venv/bin/activate
+=======
+
+>>>>>>> b3a02ee6 (Organize files: move scripts to BleuCometScript/ and PDFs to reference/)
     ```
 3.  **安装依赖**:
     ```bash
@@ -65,4 +69,8 @@ python bleu_comet_evaluator.py --input_file <input_file.jsonl> [--output_dir <ou
 ## 示例
 
 ```bash
+<<<<<<< HEAD
 python bleu_comet_evaluator.py --input_file sample_data.jsonl --output_dir my_evaluation_results --comet_model XLM-RoBERTa-Large-XNLI-COMET-XXL
+=======
+python bleu_comet_evaluator.py --input_file sample_data.jsonl --output_dir my_evaluation_results --comet_model XLM-RoBERTa-Large-XNLI-COMET-XXL
+>>>>>>> b3a02ee6 (Organize files: move scripts to BleuCometScript/ and PDFs to reference/)
